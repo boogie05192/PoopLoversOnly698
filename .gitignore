@@ -4,3 +4,6 @@ build/
 *.bin
 *.elf
 *.hex
+
+!build_nopicotool/rocket_logger.uf2
+!build_nopicotool/rocket_logger.bin

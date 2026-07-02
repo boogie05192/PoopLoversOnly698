@@ -37,6 +37,8 @@ This workspace contains a starter firmware project for a Pico 2 W system that wi
      - `git -C pico-sdk submodule update --init --recursive`
 6. Put the Pico into bootloader mode and copy the UF2 file to it.
 
+> This repository includes the generated `build_nopicotool/rocket_logger.uf2` and `build_nopicotool/rocket_logger.bin` artifacts so another user can download the repo and flash the Pico directly.
+
 > If you later install a host compiler and `picotool`, you can switch back to the normal `build` directory and remove `-DPICO_NO_PICOTOOL=1`.
 
 ## Toolchain note
